@@ -1,7 +1,14 @@
-div {
-	width: 400px;
+.parent {
+	width: 340px;
+	min-height: 20px;
+	background: #FF6600;
+	
 }
-
-img {
-	float:right;
+.rows {
+	width: 100px;
+	height: 100px;
+	background: #00F1FF;
+	margin: 5px;
+	float: left;
+	
 }
