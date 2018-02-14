@@ -1,0 +1,121 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+ 
+body {
+    background-color: #00FFFF;
+}
+ 
+.wrap {
+    width: 640px;
+    background: white;
+    margin: 20px auto;
+    padding-bottom: 10px;  
+}
+ 
+.header{
+    margin: 0 20px;
+    width: 600px;
+}
+ 
+.text {
+    width: 540px;
+    color: #000;
+    font-size: 16px;
+    line-height: 23px;
+    background-color: white;
+    margin-top: 10px;
+}
+ul {
+    padding: 0 60px;
+}
+li {
+    margin-top: 5px;
+}
+p {
+    margin-top: 20px;
+}
+
+.linkColor{
+    color: blue;
+}
+
+.allotmentText {
+    font-weight: bold;
+}
+ 
+.centertext {
+    text-align: center;
+}
+ 
+.rowOne {
+    width: 540px;
+    margin-top: 10px;
+}
+ 
+.colomRowOne {
+    width: 240px;
+    float: left;
+    margin: 0 30px 0 0;
+}
+ 
+.firstImg {
+    width: 240px;
+    height: 213px;
+}
+ 
+.firstbuttons {
+    width: 240px;
+    height:50px;
+    background: red;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+}
+
+ 
+.buttonBig{
+    width: 520px;
+    height:40px;
+    background: red;
+    font-weight: bold;
+    border-radius: 6px;
+    border:  none;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin: 20px 50px 20px;
+}
+ 
+.footer {
+    width: 600px;
+    height: 200px;
+    background: #1E90FF;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin: 20px auto;  
+}
+
+.lastImg{
+    width: 50px;
+    height: 50px;
+    padding: 20px 10px 0 0;
+}
+
+.footerText{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.footerLink {
+    font-weight: bold;
+    color: white;
+}

@@ -8,7 +8,7 @@ body {
     background-color: gray;
 }
  
-.fullwrap {
+.wrap {
     width: 640px;
     background: white;
     margin: 20px auto;  
@@ -125,12 +125,12 @@ p {
     font-size: 14px;
     margin-top: 20px;
 }
-.new {
+.fontTextDown {
     font-style: italic;
 }
  
-button {
-    width: 540px;
+.buttonBig {
+    width: 520px;
     height:40px;
     background: red;
     font-weight: bold;
