@@ -1,0 +1,71 @@
+*{
+    background: #D3AFAB;
+}
+table {
+    font-size: 16px;
+    font-weight: bold;
+    border-collapse:collapse;
+    border-spacing: 1px;
+}
+
+.headth{
+    padding:15px;
+    color:#fff;
+    background:linear-gradient(to top, rgb(29,35,38) , rgb(35,42,44));
+    border:10px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.headclear{
+    background:transparent;
+    border:none;
+}
+.footer{
+    color: #9CD009;
+    font-size:32px;
+    text-align:center;
+    padding:10px 0px;
+    background: transparent;
+}
+.footerT{
+    color:#666;
+    background: transparent;
+    border-right: 3px solid white;
+}
+
+.contentText{
+    padding:12px;
+    text-align:center;
+    background-color:#EBEBEB;
+    color:#252A2D;
+    border-right: 1px solid #D0D0D0;
+    border-top: 1px solid #D0D0D0;
+    min-width: 200px;
+}
+
+.content{
+    padding:15px;
+    color:#fff;
+    background:linear-gradient(to top, rgb(214,72,61) , rgb(229,84,71));
+    border-color: black;
+    min-width: 170px;
+}
+.buttonPos{
+    text-align:center;
+    background-color:#EBEBEB;
+    color:#252A2D;
+    border-right: 1px solid #D0D0D0;
+    border-top: 1px solid #D0D0D0;
+    padding-bottom: 13px;
+    padding-top: 13px;
+}
+
+.themBott{
+  width:105px;
+  height:40px;
+  background:linear-gradient(to top, rgb(214,72,61) , rgb(229,84,71));
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}

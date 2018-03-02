@@ -1,0 +1,158 @@
+.main{
+  min-width: 1000px;
+  min-height: 800px;
+  float: left;
+}
+.textHead{
+  height:111px;
+  background: #16A086;
+  color: white;
+  font-weight:bold;
+  font-size:25px;
+  border-bottom: 5px solid #15927A;
+}
+.firstTable {
+  margin-left: 10px; 
+  width: 300px;
+  border-collapse: collapse;
+  border-top: 3px solid #13937A;
+  border-bottom: 3px solid #13937A;
+  border-left: 3px solid #13937A;
+  border-right: 3px solid #13937A;
+  text-align:center;
+    float: left;
+}
+.buttonPosFirst{
+  height:90px;
+  border-bottom: 10px solid #13937A;
+}
+.themBottfirst{
+  width:125px;
+  height:60px;
+  background:#159F85;
+  color: white;
+  border: 1px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.SecondTable {
+  margin-left: 10px; 
+  width: 300px;
+  border-collapse: collapse;
+  border-top: 3px solid #CC8109;
+  border-bottom: 3px solid #CC8109;
+  border-left: 3px solid #CC8109;
+  border-right: 3px solid #CC8109;
+  text-align:center;
+  float: left;
+}
+.buttonPosSecond{
+  height:90px;
+  border-bottom: 10px solid #CC8109;
+}
+.themBottsecond{
+  width:125px;
+  height:60px;
+  background:#F39C11;
+  color: white;
+  border: 1px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.textHeadSecond{
+  height:111px;
+  background: #F39C11;
+  color: white;
+  font-weight:bold;
+  font-size:25px;
+  border-bottom: 5px solid #CC8109;
+}
+
+.ThreeTable {
+  margin-left: 10px; 
+  width: 300px;
+  border-collapse: collapse;
+  border-top: 3px solid #A12E23;
+  border-bottom: 3px solid #A12E23;
+  border-left: 3px solid #A12E23;
+  border-right: 3px solid #A12E23;
+  text-align:center;
+    float: left;
+}
+.buttonPosThree{
+  height:90px;
+  border-bottom: 10px solid #A12E23;
+}
+.themBottThree{
+  width:125px;
+  height:60px;
+  background:#C1392B;
+  color: white;
+  border: 1px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.textHeadThree{
+  height:111px;
+  background: #C1392B;
+  color: white;
+  font-weight:bold;
+  font-size:25px;
+  border-bottom: 5px solid #A12E23;
+}
+
+.strLine{
+  border-top: 1px dotted;
+  width: 228px; 
+}
+.contents{
+  height:32px;
+  color:gray;
+  padding-top: 10px;
+}
+.contentsLast{
+  height:40px;
+  color:gray;
+  padding-top: 10px;
+}
+
+.textName{
+  font-size: 25px;
+  font-weight: normal; 
+  margin: 0px;
+  padding-bottom: 25px;
+}
+.text{
+  margin: 15px;
+  font-size: 40px;
+}
+table {
+  margin-left: 10px; 
+  width: 300px;
+  border-collapse: collapse;
+  border-bottom: 3px solid #13937A;
+  border-left: 3px solid #13937A;
+  border-right: 3px solid #13937A;
+  text-align:center;
+    float: left;
+}
+
+.price{
+  height:60px;
+  background:rgb(111,205,112);
+  color:white;
+  font-weight:bold;
+  font-size:30px;
+}
+.line{
+  height: 0px;
+}
+td{
+  height:40px;
+  color:gray;
+}
+ 
+tr:nth-child(odd) {
+    background-color: white;
+}

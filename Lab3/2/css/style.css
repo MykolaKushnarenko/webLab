@@ -1,0 +1,132 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #3C2D29;
+}
+.main{
+	min-width: 1030px;
+	min-height: 392px;
+	position: relative;
+	margin: 30px 130px;
+	background: white;
+}
+.imgMenu{
+	min-width: 200px;
+	min-height: 200px;
+	float: left;
+}
+.textBlockImgMenu{
+	min-width: 335px;
+	min-height: 170px;
+	position: absolute;
+	background: black;
+	top:155px;
+	left: -10px;
+	padding-top: 42px;
+}
+.textBurger{
+	font-family: Arial;
+	font-size: 45px;
+	color: white;
+	font-weight:bold;
+	line-height: 0.8;
+	text-align: center;
+}
+.textPriceBurget{
+	font-family: Arial;
+	font-size: 15px;
+	color: yellow;
+	font-weight:bold;
+	line-height: 3;
+	margin-left: 110px;
+}
+.textPriceBurget2{
+	color: white;
+	font-weight:bold;
+	margin-top: -31px;
+	margin-left: 181px;
+}
+
+.blockOne{
+	float: left;
+	max-height: 392px;
+}
+.blockTwo{
+	float: right;
+	min-height: 392px;
+	min-width: 760px;
+}
+.pq{
+	color: black;
+	font-size: 22px;
+	text-align: center;
+	padding-top: 40px;
+	padding-left: 80px;
+}
+
+.blockRow{
+	min-width: 200px;
+	max-height: 94px;
+	margin:0px 150px;
+}
+
+.blockColom{
+	float: left;
+	max-height: 95px;
+}
+
+.blockColomTwo{
+	float: right;
+	max-height: 95px;
+}
+.nameMenu{
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 40px;
+	line-height: 0.1;
+}
+.priceMenu{
+	color: #B3B3B3;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 9px
+}
+.line {
+  position: relative;
+  margin: 16px auto;
+  width: 195px;
+  height: 1px;
+  background: #ccc;
+}
+
+.line:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+}
+.but {
+	position: relative;
+	width:150px;
+	height:50px;
+	top:10px;
+	float:right;
+	background: black;
+	color:white;
+	border: none;
+	font-weight: 600;
+	font-size: 15px;
+}
+.but:hover{
+	background: white;
+}
+.but:active{
+	background: white;
+}
