@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	height: 100px;
+}
+.sqr_1_external{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+
+}
+.sqr_2_intermal{
+	width: 190px;
+	height: 87px;
+	background-color: indigo;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 2;
+	border-radius: 270px / 130px;
+
+}
+
+.circle {
+	visibility: hidden;
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: right;
+	top:0px;
+	left: 0px;
+	right: 0px;
+	position: relative;
+}
+
+.diamond {
+    width: 120px;
+    height: 120px;
+    background: #1eff00;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: 35px 0 10px 37px;
+    position: relative;
+}
+
+@keyframes move_1_circle{
+  0%{transform: translate(0px, 0px)}
+  25%{transform: translate(-213.5px, 0px)}
+  50%{transform: translate(-427px, 0px)}
+  75%{transform: translate(-640.5px, 0px)}
+  100%{transform: translate(-854px, 0px)}
+}
+.move_circle {
+	animation-fill-mode: forwards;
+	-webkit-animation: move_1_circle forwards 4s linear;
+}
+
+@keyframes move_1_diamond{
+  0%{transform: rotateZ(0deg)}
+  100%{transform: rotateZ(315deg)}
+}
+.move_1 {
+	animation-fill-mode: forwards;
+	-webkit-animation: move_1_diamond forwards 1s linear;
+}
